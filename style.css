@@ -88,11 +88,12 @@ border-bottom: 4px solid var(--verde);
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
+}
     .contador{
         font-size: 20px;
         text-align: center;
     }
-}
+
 @media screen and(min-width: 768px) {
     .botoes{
         display: flex;
@@ -100,6 +101,7 @@ border-bottom: 4px solid var(--verde);
      .botao:first-child{
        border-radius:40px 0 0 ;
      }
+     
     .botao:last-child{
         border-radius:0 40px 0 0 ;
     }
